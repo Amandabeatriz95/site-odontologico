@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clinica | Bem Sorrir</title>
+    <link rel="stylesheet" href="assets/css/home-page-styles.css" />
+  </head>
+
+  <body>
+    <!-- Menu superior conectado -->
+    <nav class="s-menu">
+      <ul>
+        <li class="s-menu__item">
+          <a href="#" class="menu-link" data-index="0">Início</a>
+        </li>
+        <li class="s-menu__item">
+          <a href="#" class="menu-link" data-index="1">Sobre</a>
+        </li>
+        <li class="s-menu__item s-menu__icon">
+          <img
+            src="assets/imagens/dente.jpg"
+            alt="Ícone dentinho"
+            class="imagem-dentinho"
+          />
+        </li>
+        <li class="s-menu__item">
+          <a href="#" class="menu-link" data-index="2">Localização</a>
+        </li>
+        <li class="s-menu__item">
+          <a href="#" class="menu-link" data-index="3">Contato</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Cards -->
+    <div class="s-container">
+      <!-- Card 0 (Início) -->
+      <div class="s-card" data-index="0">
+        <div class="s-card__face s-card__front">
+          <img
+            class="s-card__background"
+            src="https://s33929.pcdn.co/wp-content/uploads/sites/587/2023/11/3D-Scanner_2021853464.jpg"
+            alt="card1"
+          />
+          <h2 class="s-card__title">Início</h2>
+        </div>
+        <div class="s-card__face s-card__back">
+          <h2 class="s-card__title">Início</h2>
+          <p class="s-card__description">
+            Bem-vindo à nossa clínica odontológica. Sorrisos saudáveis começam
+            aqui!
+          </p>
+        </div>
+      </div>
+
+      <!-- Card 1 (Sobre) -->
+      <div class="s-card" data-index="1">
+        <div class="s-card__face s-card__front">
+          <img
+            class="s-card__background"
+            src="https://media.istockphoto.com/id/687663822/photo/dentists-office-in-barcelona-medical-workers-portrait.jpg?s=612x612&w=0&k=20&c=7TyCaVrUp_BzXEU7G3CbyMkdouqCYwikb1Saz3GTL5c="
+            alt="card2"
+          />
+          <h2 class="s-card__title">Sobre</h2>
+        </div>
+        <div class="s-card__face s-card__back">
+          <h2 class="s-card__title">Sobre</h2>
+          <p class="s-card__description">
+            Conheça nossa equipe de especialistas dedicados ao seu bem-estar e
+            saúde bucal.
+          </p>
+        </div>
+      </div>
+
+      <!-- Card 2 (Localização com Mapa Fictício) -->
+      <div class="s-card" data-index="2">
+        <div class="s-card__face s-card__front">
+          <img
+            class="s-card__background"
+            src="assets/imagens/card1.png"
+            alt="card3"
+          />
+          <h2 class="s-card__title">Localização</h2>
+        </div>
+        <div class="s-card__face s-card__back map-back">
+          <h2 class="s-card__title">Localização</h2>
+          <div class="map-container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.197463583647!2d-46.65657252466986!3d-23.561384961585255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f437522c617d7!2sAv.%20Paulista%2C%201000%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr"
+              width="100%"
+              height="100%"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            >
+            </iframe>
+          </div>
+          <p
+            class="s-card__description"
+            style="font-size: 0.9rem; margin-top: 0.5rem"
+          >
+            Av. Paulista, 1000 - Centro, São Paulo
+          </p>
+        </div>
+      </div>
+
+      <!-- Card 3 (Contato) -->
+      <div class="s-card" data-index="3">
+        <div class="s-card__face s-card__front">
+          <img
+            class="s-card__background"
+            src="https://www.bluegrassdentistry.com/wp-content/uploads/2024/12/12-24-IMP2-Man-holding-implant-model.jpg"
+            alt="card4"
+          />
+          <h2 class="s-card__title">Contato</h2>
+        </div>
+        <div class="s-card__face s-card__back">
+          <h2 class="s-card__title">Contato</h2>
+          <p class="s-card__description">
+            Estamos prontos para cuidar do seu sorriso! Agende sua avaliação ou
+            tire suas dúvidas agora mesmo. <br />
+            📞 (11) 98765-4321 <br />
+            ✉️ contato@bemsorrirclinic.com.br Horário de atendimento: Segunda a
+            Sexta, das 08h às 18h. <br />Esperamos sua visita!
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bolinhas controladoras embaixo -->
+    <div class="s-controller">
+      <div class="s-controller__button" data-index="0">01</div>
+      <div class="s-controller__button" data-index="1">02</div>
+      <div class="s-controller__button" data-index="2">03</div>
+      <div class="s-controller__button" data-index="3">04</div>
+      <div class="s-controller__line"></div>
+    </div>
+
+    <!-- Script de sincronização -->
+    <script src="assets/scripts/card-hover-animation.js"></script>
+  </body>
+</html>
